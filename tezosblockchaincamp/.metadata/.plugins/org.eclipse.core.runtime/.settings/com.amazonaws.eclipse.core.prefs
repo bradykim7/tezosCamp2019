@@ -1,0 +1,8 @@
+cognitoIdentityId=us-east-1\:b552c2b3-d319-4f7c-a1fe-eaeb2960eae6
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=e4b5c766-d865-411b-84fa-42501f03c19b
+currentAccount=e4b5c766-d865-411b-84fa-42501f03c19b
+currentDefaultAccount=e4b5c766-d865-411b-84fa-42501f03c19b
+e4b5c766-d865-411b-84fa-42501f03c19b\:credentialProfileName=default
+ec2PreferencesImported=true
+eclipse.preferences.version=1

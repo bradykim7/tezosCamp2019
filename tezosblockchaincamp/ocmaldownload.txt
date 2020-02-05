@@ -1,0 +1,33 @@
+Mac 아직 안 되신 분들 
+1. homebrew 설치
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2. opam 설치
+ $ brew update 
+ $ brew install opam
+ $ opam init 
+ $ eval $(opam env)
+
+
+
+
+Linux
+ $ sudo apt update
+ $ sudo apt install unzip m4 make git ocaml-interp bubblewrap
+ $ opam init
+ $ eval $(opam env)
+
+
+  // 아래 메세지가 나올 경우, ‘=> 이후’ 명령어 하고, 다시 sudo apt update 부터 진행
+      (could not get lock /var/lib/apt/lists/lock - …)
+   => $ sudo rm /var/lib/apt/lists/lock
+
+  // 아래 메세지가 나올 경우, ‘=> 이후’ 명령어 하고, 다시 sudo apt update 부터 진행
+  (could not get lock /var/lib/dpkg/lock - …)
+   => $ sudo rm /var/lib/dpkg/lock
+   => $ sudo dpkg —configure -a
+
+
+
+
+
